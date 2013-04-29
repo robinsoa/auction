@@ -37,24 +37,10 @@ public class AuctionItem {
 	}
 
 	/**
-	 * @param id the id to set
-	 */
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	/**
 	 * @return the title
 	 */
 	public String getTitle() {
 		return title;
-	}
-
-	/**
-	 * @param title the title to set
-	 */
-	public void setTitle(String title) {
-		this.title = title;
 	}
 
 	/**
@@ -65,24 +51,10 @@ public class AuctionItem {
 	}
 
 	/**
-	 * @param description the description to set
-	 */
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	/**
 	 * @return the bid
 	 */
 	public double getBid() {
 		return bid;
-	}
-
-	/**
-	 * @param bid the bid to set
-	 */
-	public void setBid(double bid) {
-		this.bid = bid;
 	}
 
 	/**
@@ -93,25 +65,12 @@ public class AuctionItem {
 	}
 
 	/**
-	 * @param bidderName the bidderName to set
-	 */
-	public void setBidderName(String bidderName) {
-		this.bidderName = bidderName;
-	}
-
-	/**
 	 * @return the bidderEmail
 	 */
 	public String getBidderEmail() {
 		return bidderEmail;
 	}
 
-	/**
-	 * @param bidderEmail the bidderEmail to set
-	 */
-	public void setBidderEmail(String bidderEmail) {
-		this.bidderEmail = bidderEmail;
-	}
 	
 	
 	//
